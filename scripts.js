@@ -4,7 +4,7 @@ var clObject = {
 		//event for search button on left side
 		$('body').on('click', '#SearchButton', function (e) {
 			e.preventDefault();
-			$('#right_wrapper').html('<h1 class="title_right">Search for Recipes</h1><form id="search_form"><label for="search_field">White the ingredients, separated by ", ": </label><input type="text" id="search_field"/><input type="submit" value="Search"/></form>')
+			$('#right_wrapper').html('<h1 class="title_right">Search for Recipes</h1><form id="search_form"><label for="search_field">Write the ingredients, separated by ", ": </label><input type="text" id="search_field"/><input type="submit" value="Search"/></form>')
 
 			//If you already have recipes to show the relevant ingredients
 			var allIngredients = [];
@@ -35,7 +35,7 @@ var clObject = {
 		//event for add button on the left side
 		$('body').on('click', '#AddButton', function (e) {
 			e.preventDefault();
-			$('#right_wrapper').html('<h1 class="title_right">Add a new Recipe</h1><form  id="add_form"><label for="title_field">Write a title: </label><input type="text" id="title_field" /><br /><label for="ingredients_field">White the ingredients, separated by ", ": </label><textarea rows="4" cols="50" id="ingredients_field"></textarea><input type="submit" value="Add"/></form>')
+			$('#right_wrapper').html('<h1 class="title_right">Add a new Recipe</h1><form  id="add_form"><label for="title_field">Write a title: </label><input type="text" id="title_field" /><br /><label for="ingredients_field">Write the ingredients, separated by ", ": </label><textarea rows="4" cols="50" id="ingredients_field"></textarea><input type="submit" value="Add"/></form>')
 		});
 
 		//event for submit button in add form on right side
