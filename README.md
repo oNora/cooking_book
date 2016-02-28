@@ -2,6 +2,7 @@ Description
 ============
 
 ###Simple HTML / JS application that allows user to manage cooking recipes.
+<br />Demo link: http://onora.github.io/cooking_book/
 
 Features:
 - entering and storing recipes - each recipe has a name and a set of ingredients
